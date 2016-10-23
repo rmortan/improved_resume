@@ -1312,12 +1312,15 @@ footer .playfair {
   font-family: 'Playfair Display SC', serif; }
 footer .roboto {
   font-family: 'Roboto', serif; }
+.footerstyle
 
 @media only screen and (max-width: 40.063em) {
   header {
     padding-top: 10px; }
   .block {
-    display: block; } }
+    display: block; }
+  img {
+    width: 190px;}}
 
 @media only screen and (min-width: 40.063em) {
   section {
@@ -1364,7 +1367,9 @@ footer .roboto {
     margin-top: 68px;
     margin-left: 25%; }
   .row {
-    max-width: 70%; } 
+    max-width: 70%; }
+  img {
+    width: 190px;} 
 
 @media only screen and (min-width: 64.063em) {
   header.row {
