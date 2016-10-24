@@ -98,7 +98,7 @@ img {
 img {
   display: flex;
   margin: 5px 0px 25px 10px;
-  width: 30%;
+  width: 50%;
   height: 35%; 
   border-style: ridge;
   border-color: #b3b3b3;
@@ -1241,11 +1241,11 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   a:focus {
-    color: #e24d25; }
+    color: #dfff80; }
   a:link, a:visited, a:active {
-    color: #192452; }
+    color: #06D501; }
   a:hover {
-    color: #e24d25;
+    color: #8080ff;
     text-decoration: underline; }
 
 .block {
