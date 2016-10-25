@@ -65,10 +65,14 @@ body {
 
 a:hover {
   cursor: pointer; }
-
-img {
-  max-width: 100%;
-  height: auto; }
+#img {
+    max-width: 100%;
+    position: relative;
+    margin: 0px -5px 10px 10px;
+    box-shadow: 6px 5px 2px 3px #3a4e5f;
+    border-radius: 65px;
+    opacity: 0.93;
+    border-style: ridge;}
 
 #map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
   max-width: none !important; }
@@ -103,6 +107,14 @@ img {
   border-style: ridge;
   border-color: #b3b3b3;
   box-shadow:  -6px -5px 23px -2px rgba(0, 42, 8, 0.81);}
+#img {
+    max-width: 100%;
+    position: relative;
+    margin: 0px -5px 10px 10px;
+    box-shadow: 6px 5px 2px 3px #3a4e5f;
+    border-radius: 65px;
+    opacity: 0.93;
+    border-style: ridge;
 
 textarea {
   height: auto;
@@ -1235,6 +1247,7 @@ header {
 
 a {
   color: #192452;
+  display: inline-block;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1250,6 +1263,13 @@ a {
 
 .block {
   display: block; }
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;}
 
 section {
   margin: 20px 0px 0px 0px;
@@ -1293,26 +1313,26 @@ p {
 
 .education .columns, .tech-skills .columns {
   padding: 0; }
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 1.5em;
+  text-align: center;
+  clear: both;
+  color: #ccc;}
+
+.social-icon {
+
+  margin: 30px 10px 30px 10px;
+  width: 20px;
+  height: 20px;
+  margin: 20px 5px;}
 
 footer p {
   line-height: 30px;
   font-size: 0.7em; }
-footer .color-chip {
-  color: white; }
-footer .color-chip.primary {
-  background-color: #192452; }
-footer .color-chip.accent {
-  background-color: #e24d25; }
-footer .typeface {
-  background-color: #eee; }
-  footer .typeface p {
-    display: inline-block;
-    color: #192452; }
-footer .playfair {
-  font-family: 'Playfair Display SC', serif; }
-footer .roboto {
-  font-family: 'Roboto', serif; }
-.footerstyle
 
 @media only screen and (max-width: 40.063em) {
   header {
