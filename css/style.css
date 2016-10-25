@@ -1353,7 +1353,7 @@ footer p {
   span.first-name {
     margin: 0;
     top: 250px;
-    left: -50px;
+    left: 2px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
@@ -1361,7 +1361,7 @@ footer p {
     transform: rotate(270deg); }
   span.last-name {
     top: 170px;
-    left: -10px;
+    left: 30px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
