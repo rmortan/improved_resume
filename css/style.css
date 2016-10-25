@@ -107,14 +107,7 @@ img {
   border-style: ridge;
   border-color: #b3b3b3;
   box-shadow:  -6px -5px 23px -2px rgba(0, 42, 8, 0.81);}
-#img {
-    max-width: 100%;
-    position: relative;
-    margin: 0px -5px 10px 10px;
-    box-shadow: 6px 5px 2px 3px #3a4e5f;
-    border-radius: 65px;
-    opacity: 0.93;
-    border-style: ridge;
+
 
 textarea {
   height: auto;
