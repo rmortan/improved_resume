@@ -105,8 +105,8 @@ img {
   width: 50%;
   height: 35%; 
   border-style: ridge;
-  border-color: #b3b3b3;
-  box-shadow:  -6px -5px 23px -2px rgba(0, 42, 8, 0.81);}
+  border-color: #bf7e0de6;
+  box-shadow:  -8px -5px 5px -1px rgba(62, 18, 18, 1);}
 
 
 textarea {
@@ -1059,16 +1059,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;} 
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.325rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 1.8875rem; }
 
 h3 {
-  font-size: 1.375rem; }
+  font-size: 1.575rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font-size: 1.325rem; }
 
 h5 {
   font-size: 1.125rem; }
@@ -1115,7 +1115,7 @@ code {
 
 /* Lists */
 ul, ol, dl {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -1249,7 +1249,7 @@ a {
   a:focus {
     color: #dfff80; }
   a:link, a:visited, a:active {
-    color: #06D501; }
+    color: #A80000; }
   a:hover {
     color: #8080ff;
     text-decoration: underline; }
@@ -1277,12 +1277,13 @@ h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif; }
 
 h1, h2, h4 {
-  color: #192452; }
+  color: #661B03; }
 
 h2, h3 {
-  font-size: 1.2em;
+  font-weight: bolder;
+  font-size: 1.5em;
   font-style: italic;
-  color: #009e1e; }
+  color: #931f0c; }
 
 h4 {
   font-weight: bold; }
@@ -1325,7 +1326,7 @@ footer {
 
 footer p {
   line-height: 30px;
-  font-size: 0.7em; }
+  font-size: 1.5em; }
 
 @media only screen and (max-width: 40.063em) {
   header {
@@ -1337,7 +1338,7 @@ footer p {
 
 @media only screen and (min-width: 40.063em) {
   section {
-    border-left: solid thin #049324; }
+    border-left: solid thin #410700; }
   header.row {
     position: fixed;
     top: 0;
@@ -1353,7 +1354,7 @@ footer p {
   span.first-name {
     margin: 0;
     top: 250px;
-    left: 2px;
+    left: -40px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
@@ -1361,7 +1362,7 @@ footer p {
     transform: rotate(270deg); }
   span.last-name {
     top: 170px;
-    left: 30px;
+    left: 0px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -1369,7 +1370,7 @@ footer p {
     transform: rotate(90deg); }
   h2 {
     top: 400px;
-    border-left: thick solid #19620e;
+    border-left: thick solid #710505e6;
     padding-left: 10px;
     left: 50px; }
   h4 {
@@ -1383,7 +1384,7 @@ footer p {
     max-width: 70%; }
   img {
     width: 190px;}
-     
+
 
 @media only screen and (min-width: 64.063em) {
   header.row {
