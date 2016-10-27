@@ -52,7 +52,7 @@ html, body {
   font-size: 100%; }
 
 body {
-  background: #fff;
+  background: #3b02024d;
   color: #222;
   padding: 0;
   margin: 0;
@@ -69,11 +69,11 @@ a:hover {
     max-width: 100%;
     position: relative;
     margin: 0px -5px 10px 10px;
-    box-shadow: 6px 5px 2px 3px #3a4e5f;
+    box-shadow: 8px 2px 7px 5px #470700cc;
     border-radius: 65px;
     opacity: 0.93;
     border-style: ridge;}
-
+    
 #map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
   max-width: none !important; }
 
@@ -1015,7 +1015,7 @@ select {
 /* Typography resets */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
   margin: 0;
-  padding: 5px 0px 10px 20px; }
+  padding: 5px 20px 10px 20px; }
 
 /* Default Link Styles */
 a {
@@ -1296,7 +1296,8 @@ p {
   margin: 0 auto; }
 
 .contact-info a {
-  width: 200px; }
+  width: 200px;
+  font-size: 1.5em }
 
 .experience ul:last-of-type {
   margin-bottom: 0; }
