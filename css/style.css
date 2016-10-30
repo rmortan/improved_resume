@@ -52,7 +52,7 @@ html, body {
   font-size: 100%; }
 
 body {
-  background: #3b02024d;
+  background: #fff;
   color: #222;
   padding: 0;
   margin: 0;
@@ -69,7 +69,7 @@ a:hover {
     max-width: 100%;
     position: relative;
     margin: 0px -5px 10px 10px;
-    box-shadow: 8px 2px 7px 5px #470700cc;
+    box-shadow: -8px -8px 14px -1px #470700;
     border-radius: 65px;
     opacity: 0.93;
     border-style: ridge;}
@@ -105,8 +105,9 @@ img {
   width: 50%;
   height: 35%; 
   border-style: ridge;
-  border-color: #bf7e0de6;
-  box-shadow:  -8px -5px 5px -1px rgba(62, 18, 18, 1);}
+  border-radius: 5px;
+  border-color: #bf7e0d;
+  box-shadow:  4px 7px 19px 3px rgb(158, 106, 11);}
 
 
 textarea {
@@ -1059,7 +1060,21 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;} 
 
 h1 {
-  font-size: 2.325rem; }
+  font-size: 2.325rem;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 
 h2 {
   font-size: 1.8875rem; }
@@ -1316,7 +1331,7 @@ footer {
   font-size: 1.5em;
   text-align: center;
   clear: both;
-  color: #ccc;}
+  color: #000;}
 
 .social-icon {
 
@@ -1354,7 +1369,7 @@ footer p {
     margin: 0; }
   span.first-name {
     margin: 0;
-    top: 250px;
+    top: 260px;
     left: -40px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -1394,7 +1409,7 @@ footer p {
     font-size: 2em;
     line-height: 2em; }
   span.first-name {
-    left: -30px; }
+    left: -40px; }
   span.last-name {
     left: 30px; }
   h2 {
